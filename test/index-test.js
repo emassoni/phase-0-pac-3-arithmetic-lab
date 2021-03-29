@@ -39,11 +39,11 @@ describe('basic math functions', function () {
   })
   
   it('increment(n) increments n and returns the result', function() {
-    expect(increment(a)).toEqual(a + 1)
+    expect(increment(n)).toEqual(n + 1)
   })
   
   it('decrement(n) decrements n and returns the result', function() {
-    expect(decrement(a)).toEqual(a - 1)
+    expect(decrement(n)).toEqual(n - 1)
   })
 })
 
